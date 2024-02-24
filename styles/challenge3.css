@@ -1,0 +1,99 @@
+.round-corners{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: rgb(225, 225, 225);
+    border-style: solid;
+    margin-right: 25px;
+}
+.google-searchbar {
+    width: 280px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 15px;
+    padding-left: 10px;
+    border: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.google-searchbar:active {
+    border: none;
+    border-width: 1px;
+    margin-top: 0;
+}
+p {
+    font-family: arial;
+    font-size: 11px;
+    color: rgb(99, 99, 99);
+    margin-top: 15px;
+}
+.email {
+    width: 267px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-width: 2px;
+    border-radius: 3px;
+    border-style: solid;
+    margin-bottom: 0;
+}
+  
+.mail {
+    margin-bottom: 5px;
+    font-size: 11px;
+}
+.signup-button {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    width: 275px;
+    border-radius: 27px;
+    background-color: rgb(59, 111, 196);
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+img {
+    width: 40px;
+    height: 40px; border-radius: 25px;
+    object-position: left; 
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.Tweet-button {
+    background-color: rgb(75, 154, 219);
+    border: none;
+    color: antiquewhite;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+    vertical-align: middle;
+  }
+  .twitter {
+    vertical-align: middle;
+    padding-right: 75px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    font-size: 14px;
+    font-family: arial;
+
+}
+.tweet-post {
+    display: block;
+    border-style: none;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 60px;
+    width: 395px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
+}

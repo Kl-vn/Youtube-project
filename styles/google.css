@@ -1,0 +1,127 @@
+.google-searchbar {
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    border-radius: 30px;
+    padding-left: 16px;
+    border: none;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 13px;
+    display: block;
+    margin-left: 500px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .google-searchbar:hover {
+    background-color: rgba(178, 177, 177, 0.741);
+
+  }
+ 
+  .google-logo {
+    width: 272px;
+    display: block;
+    height: 70px;
+    object-fit: contain;
+    object-position: bottom;
+    margin-left: 580px;
+    margin-bottom: 0px;
+  }
+  p {
+    font-family: arial;
+  }
+  .Install {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 8px;
+  }
+  .paragraph {
+    font-size: 10px;
+    color: grey;
+    margin-bottom: 0;
+  }
+  .request {
+    object-fit: cover;
+
+    width: 150px;
+    height: 155px;
+    cursor: pointer;
+  }
+  .facebook-addfriend {
+    border: none;
+    
+    margin-top: 40px;
+    width: 100%;
+    margin-left: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    
+    
+  }
+  .username {
+    margin-left: 6px;
+    font-weight: bold;
+    font-family: arial;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 11px;
+    cursor: pointer;
+  }
+  .numberfriends {
+    font-family: arial;
+    font-size: 10px;
+    color: grey;
+    margin-left: px;
+    margin-top: 4px;
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+  .Addfriend {
+    background-color: rgb(36, 118, 212);
+    cursor: pointer;
+    margin-left: 6px;
+    margin-top: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+    border: none;
+    margin-bottom: 8px;
+    font-size: 10px;
+    font-family: arial;
+    border-radius: 2px;
+  }
+  .google-buttons {
+  
+    font-family: arial;
+    width: 1430px;
+    text-align: center;
+  }
+  .Search-buttons {
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 2px;
+    margin-right: 7px;
+  }
+  .facebook-grid {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    column-gap: 15px;
+    
+
+  }
+  .mutual {
+   width: 18px;
+   height: 18px;
+   border-radius: 9px;
+   margin-left: 6px;
+   align-items: center;
+  }

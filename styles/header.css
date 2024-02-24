@@ -1,0 +1,150 @@
+.head {
+    display: flex;
+    position: fixed;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    left: 0;
+    top: 0;
+    right: 0;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: white;
+    z-index: 100;
+
+}
+
+.middle {
+    
+    display: flex;
+    flex: 1;
+    margin-left: 80px;
+    max-width: 700px;
+}
+.searchbar {
+    height: 40px;
+    font-size: 25px;
+    padding: 1px 2px 1px 12px;
+    border-width: 1px;
+    border-color: lightgrey;
+    border-style: solid;
+    flex: 1;
+    width: 0;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+   
+   
+}
+.searchbar::placeholder {
+    font-size: 24px;
+    font-weight: 500;
+    color: gray;
+}
+.search-icon {
+    height: 24px;
+    width: 24px;
+}
+.search-button {
+    background-color: rgb(247, 247, 247);
+    border-style: solid;
+    width: 95px;
+    border-color: lightgray;
+    border-left-width: 0;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+.voice-record-button {
+    margin-left: 10px;
+    border: none;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
+    position: relative;
+    
+}
+.voice-record-icon {
+    height: 24px;
+    width: 24px;
+}
+.left {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.youtube-logo {
+    height: 50px;
+    width: 140px;
+    margin-left: 30px;
+    cursor: pointer;
+   
+}
+.hamburger-menu {
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 270px;
+    margin-left: 50px;
+    margin-right: 55px;
+    
+}
+.right-icons{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+.channel-image {
+    height: 52px;
+    width: 52px; 
+    border-radius: 25px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.notifications {
+    position: relative;
+}
+.notifications-count {
+    position: absolute;
+    background-color: rgb(203, 38, 38);
+    color: white;
+    font-size: 14px;
+    top: 0px;
+    right: -5px;
+    padding: 4px 7px 4px 7px;
+    border-radius: 12px;
+    font-family: roboto, Arial;
+    box-shadow: -4px 1px 2px white   
+}
+.search-button .toolkit, .voice-record-button .toolkit, .notifications .toolkit {
+    position: absolute;
+    background-color: rgba(88, 88, 88, 0.82);
+    white-space: nowrap;
+    color: white;
+    font-size: 17px;
+    padding: 14px 10px 14px 10px;
+    border-radius: 3px;
+    bottom: -70px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.15s;
+}
+.search-button , .voice-record-button , .notifications {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-button:hover .toolkit, .voice-record-button:hover .toolkit, .notifications:hover .toolkit {
+    opacity: 1;
+}

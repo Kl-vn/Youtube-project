@@ -1,0 +1,37 @@
+@media (min-width: 1500.99px) {
+
+    .sidebar {
+        position: fixed;
+        width: 350px;
+        top: 80px;
+        bottom: 0;
+        left: 0;
+        background-color: white;
+        z-index: 200;
+        padding-top: 15px;
+        cursor: pointer;
+        
+    }
+    .sidebar-content img {
+        height: 40px;
+        width: 40px;
+        margin-left: 35px;
+    }
+    .sidebar-content:hover {
+        background-color: rgb(238, 235, 235);
+        
+    }
+    .sidebar-content {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    .sidebar-content div {
+        margin-top: 0px;
+        font-size: 15px;
+        margin-left: 30px;
+        font-weight: 700;
+    }
+    
+}

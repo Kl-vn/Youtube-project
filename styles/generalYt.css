@@ -1,0 +1,10 @@
+main {
+    font-family: roboto,Arial;
+    background-color: rgb(247, 247, 247);
+    padding-left: 140px;
+    padding-top: 110px;
+}
+
+/* this is how we write comments in css */
+/** this is how we write multiple line comments in css
+I can change the line and write more under that double asterisk symbol **/
